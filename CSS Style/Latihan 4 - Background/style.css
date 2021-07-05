@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+    background-image: url(gambar/beanstalk.png);
+    /* background-repeat: no-repeat; */
+    /* jika background position no repeat maka bisa menentukan position */
+    /* background-position: top center; */
+}
+
+/* shorthand */
+
+/* background: color url() position repeat */
