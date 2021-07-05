@@ -1,16 +1,22 @@
+/* Kondisi Biasa */
 .hello:link {
     color: olivedrab;
 }
 
+/* Kondisi Saat Mouse Diatasnya */
 .hello:hover {
  color: goldenrod;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 20px;
 }
 
+/* Menu Aktif Saat sedang di klik */
+
 .hello:active{
     font-style: italic;
 }
+
+/* Kondisi setalh di kunjungi */
 
 .hello:visited {
     color: red;
