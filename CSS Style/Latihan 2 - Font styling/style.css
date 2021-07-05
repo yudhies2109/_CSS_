@@ -1,0 +1,17 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    /* font-weight: lighter; */
+    font-variant: small-caps; 
+    font-style: italic;
+}
+
+/* Short - hand */
+/* font : font-style font-variant font-weight font-size (wajib)/line height font-family (wajib) */
+/* ex. font: italic normal bold 16px/18px helvetica,arial, sans-serif */
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-align: justify;
+}
