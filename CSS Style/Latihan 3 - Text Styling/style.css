@@ -1,0 +1,13 @@
+/* text styling */
+
+h1 {
+    font-size: 50px;
+    color: #7BFF00;
+    text-decoration: underline;
+  }
+  
+  p{
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+  }
