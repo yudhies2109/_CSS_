@@ -1,0 +1,9 @@
+/* <x-offset> <y-offset> <blur> <color> */
+
+h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 1px black;
+}
