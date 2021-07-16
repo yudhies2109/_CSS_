@@ -1,0 +1,10 @@
+/* background-image: radial-gradient(<warna-awal>, <warna-akhir> */
+/* tipe bisa epllipse atau circle */
+
+div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    /* background-color: blue; */
+    background-image: radial-gradient(circle farthest-side at top left, red, blue);
+}
