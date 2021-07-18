@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: "open_sansregular", arial;
+}
+
+/* Catatan */
+/* 
+Format yang paling bagus adalah woff / woff 2 karena loading screen akan lebih cepat.
+untuk file yang berformat selain woff dapat di generate di fontsquirrel di menu "Generator", ini yang d sebut web generator. 
+*/
