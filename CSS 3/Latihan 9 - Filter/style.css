@@ -1,0 +1,24 @@
+/* 
+    Filter berfungsi untuk memberikan efek visual
+    pada gambar, background atau border
+
+    filter: <tipe-filter>
+*/
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    filter:blur(2px) grayscale(1);
+    transition: 1s;
+}
+
+img:hover {
+    filter:blur(0) grayscale(0);
+}
+
+h1 {
+    filter:drop-shadow(5px 5px 5px black); 
+}
