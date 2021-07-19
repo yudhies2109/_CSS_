@@ -73,16 +73,29 @@ h1 {
 /* Overlay */
 
 .overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
     position: fixed;
     top:0;
     left: 0;
     background-color: rgba(0, 0, 0, 0);
     z-index: 9999;
     transition: 1s;
+    text-align: center;
+    padding: 100px 0;
 }
 
 .overlay:target {
+    width: auto;
+    height: auto;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .7);
 }
+
+.overlay img {
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+}
+
